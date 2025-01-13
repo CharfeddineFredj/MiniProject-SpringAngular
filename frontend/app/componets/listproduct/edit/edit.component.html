@@ -1,0 +1,83 @@
+<div class="container my-4">
+  <form [formGroup]="form" (ngSubmit)="modifierProduct()" class="p-4 rounded shadow-sm bg-light">
+    <h4 class="mb-3 text-center">Modifier le produit</h4>
+
+    <!-- Nom du produit -->
+    <div class="mb-3">
+      <label for="name" class="form-label">Nom du produit</label>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        placeholder="Entrez le nom du produit"
+        formControlName="name"
+      />
+    </div>
+
+    <!-- Description -->
+    <div class="mb-3">
+      <label for="description" class="form-label">Description</label>
+      <input
+        type="text"
+        class="form-control"
+        id="description"
+        placeholder="Entrez la description"
+        formControlName="description"
+      />
+    </div>
+
+    <!-- Prix -->
+    <div class="mb-3">
+      <label for="price" class="form-label">Prix</label>
+      <input
+        type="text"
+        class="form-control"
+        id="price"
+        placeholder="Entrez le prix"
+        formControlName="price"
+      />
+    </div>
+
+    <!-- Quantité -->
+    <div class="mb-3">
+      <label for="qte" class="form-label">Quantité</label>
+      <input
+        type="number"
+        class="form-control"
+        id="qte"
+        placeholder="Entrez la quantité"
+        formControlName="qte"
+        min="1"
+      />
+    </div>
+
+    <!-- Image du produit -->
+    <div class="row mb-3">
+      <label for="profileImage" class="col-md-4 col-lg-3 col-form-label">Image du produit</label>
+      <div class="col-md-8 col-lg-9">
+        <!-- Affichage de l'image sélectionnée -->
+        <img *ngIf="image" [src]="image" width="100px" alt="Image du produit" />
+        <div class="pt-2">
+          <input type="file" id="profileImage" (change)="onImageSelected($event)" hidden #fileInput />
+          <a href="#" class="btn btn-primary btn-sm" title="Télécharger une nouvelle image" style="margin-right: 7px;" (click)="$event.preventDefault(); fileInput.click();">
+            <i class="bi bi-upload"></i>
+          </a>
+          <a href="#" class="btn btn-danger btn-sm" title="Réinitialiser l'image" (click)="$event.preventDefault(); resetImage();">
+            <i class="bi bi-arrow-clockwise"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bouton d'enregistrement -->
+    <div class="d-flex justify-content-end">
+      <button
+        type="submit"
+        [disabled]="form.invalid"
+        class="btn btn-primary px-4"
+      >
+        Enregistrer
+      </button>
+    </div>
+  </form>
+</div>
