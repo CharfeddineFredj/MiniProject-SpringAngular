@@ -1,0 +1,22 @@
+<div class="product-container">
+  <div class="product-card">
+    <!-- Section des images -->
+    <div class="product-images">
+      <div class="main-image">
+        <img [src]="image" alt="{{ oneproduct?.name }}" />
+      </div>
+    </div>
+
+    <!-- Section des détails -->
+    <div class="product-details">
+      <h1 class="product-title">{{ oneproduct?.name }}</h1>
+      <p class="product-description">{{ oneproduct?.description }}</p>
+      <div class="product-price">
+        <h4>Price: <span>{{ oneproduct?.price }} TND</span></h4>
+      </div>
+      <div class="product-quantity">
+        <h4>Quantity: <span>{{ oneproduct?.qte }}</span></h4>
+      </div>
+    </div>
+  </div>
+</div>
