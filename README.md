@@ -31,3 +31,6 @@ The project followed an **Agile** methodology, ensuring regular iterations and f
 
 ### 🖥️ Administrative Dashboard
 
+![original-b9c02b2a194124fcf0ac43fbcdc6e1f3](https://github.com/user-attachments/assets/24300a53-c656-476f-af2f-61fb4ef216aa)
+
+
