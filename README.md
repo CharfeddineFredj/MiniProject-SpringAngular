@@ -1,37 +1,32 @@
-# 🌟 Administrative Management System
+# 🌟 Administrative Interface for E-Commerce Platform
 
 ## 🚀 Project Description  
-The **Administrative Management System** was developed during my professional internship at **ITGUST**. This system allows for the efficient management of users and administrative data. Administrators can manage user details, roles, and administrative records with ease. The system was built using **Angular** for the frontend, **Spring Boot** for the backend, and **MySQL** for data storage.
-
-## 🎯 Main Features
-
-### 🧑‍💻 **User Management**  
-- Add, update, and remove user information.  
-- View user details and manage user roles.
-
-### 🛠️ **Administrative Data Management**  
-- Manage various administrative data such as policies, reports, and records.  
-- Maintain and update records in a user-friendly interface.
+The **Administrative Interface for E-Commerce Platform** was developed to provide a user-friendly interface for managing products, orders, and sales. Built during my professional internship at **ITGUST**, this system enables administrators to easily oversee the operation of an online store, including product management, order tracking, and inventory control.
 
 ## 🔧 Technologies Used
 
 ### Frontend  
-- 🎨 **Angular** – For dynamic and responsive web applications.  
-- 💻 **TypeScript** – For type-safe and scalable frontend code.
+- 🎨 **Angular** – For building a dynamic, responsive, and scalable user interface.
 
 ### Backend  
-- ⚙️ **Spring Boot** – Framework for building backend services.  
-- 🗄️ **MySQL** – For managing the administrative data and user information.
+- ⚙️ **Spring Boot** – For developing a robust and scalable backend with RESTful APIs.
 
-### Architecture  
-- **Monolithic** architecture for simplicity and efficient development.
+### Database  
+- 🗄️ **MySQL** – For managing product, order, and inventory data.
+
+## 🎯 Role and Objectives
+- **Design and implement** an intuitive user interface for managing products and orders.  
+- **Integrate REST APIs** to connect the frontend with the backend.  
+- **Manage SQL database** for product, order, and sales data.
+- **Implement features** for tracking sales and managing inventory efficiently.
+
+## 🏗️ Architecture  
+- **Monolithic architecture** for simplicity and efficient development, where both the frontend and backend are tightly integrated within a single codebase.
 
 ## 📋 Methodology  
-The project followed a **Scrum** methodology, ensuring that each phase of development (planning, design, development, and testing) was completed iteratively and incrementally, allowing for continuous feedback and improvements.
+The project followed an **Agile** methodology, ensuring regular iterations and feedback loops to continuously improve the system.
 
 ## 🖼️ **Screenshot**
 
 ### 🖥️ Administrative Dashboard
 
-
----
