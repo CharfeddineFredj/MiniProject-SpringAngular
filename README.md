@@ -1,8 +1,9 @@
 # 🌟 Administrative Interface for E-Commerce Platform
----
+
 ## 🚀 Project Description  
 The **Administrative Interface for E-Commerce Platform** was developed to provide a user-friendly interface for managing products, orders, and sales. Built during my professional internship at **ITGUST**, this system enables administrators to easily oversee the operation of an online store, including product management, order tracking, and inventory control.
 
+---
 ## 🔧 Technologies Used
 
 ### Frontend  
